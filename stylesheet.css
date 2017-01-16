@@ -133,6 +133,7 @@ h3 {
 .product-width {
 	width: 100%;
 	padding: 3vh 0vh;
+	text-align: center;
 }
 
 .item-pic {
@@ -186,7 +187,7 @@ h3 {
 
 .footer {
 	background-color: #262626;
-	height: 33vh; 
+	height: 25vh; 
 	padding: 60px;
 }
 
@@ -219,6 +220,8 @@ a:visited {
 
 /*---------------MEDIA QUERIES-----------------*/
 
+/*---------------TABLET-------------------------*/
+
 @media only screen and (min-device-width: 600px) {
 	.section-text {
 	font-size: 30px;
@@ -250,29 +253,47 @@ a:visited {
 	.footer-section-right {
 		float: right;
 	}
-	.icon {
-		float: none;	
+	.info-text {
+		font-size: 22px;
 	}
+	.contact-text {
+		padding: 8px 0px;
+		font-size: 22px;
+	}
+	.icon {
+		float: none;
+		font-size: 20px;
+		text-align: left;
+		padding: 5px 15px;	
+	}
+	
 	.hidden {
 		display: inline;
 	}
 	p.center {
 		text-align: left;
 	}
-	.footer {
-		padding:;
-	}
-} 
 
 /*------------ DESKTOP ------------------------*/
 
 @media only screen and (min-device-width: 1050px) {
 	h1 {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	}
 
 	h2 {
 	font-size: 1rem;
+	}
+
+	.header-image {
+	height: 10vh;
+	padding: 10px;
+}
+	.banner-title {
+		top: 30%;
+	}
+	.margin-bottom {
+		margin-bottom: 10%;
 	}
 	.section-title {
 		font-size: 2rem;
@@ -281,6 +302,8 @@ a:visited {
 	.section-text {
 	font-size: 20px;
 	line-height: 1.9;
+	margin: auto 150px;
+
 	}
 
 	.product-roll {
@@ -293,13 +316,24 @@ a:visited {
 	.bottom {
 		padding: 10px;
 	}
-	.product-width {
+	.product-wdth {
+	width: 25%;
+	/*float: left;*/
+	text-align: center;
+}
+
+.item-pic {
+	height: 200px;
+	text-align: center;
+	/*float: left;*/
+}
+	/*.product-width {
 		width: 25%;
 		float: left;
 		text-align: center;
 	}
 	.item-pic {
-		height: inherit;
+		height: inherit;*/
 	}
 	.red-text {
 		font-size: 25px;
@@ -312,6 +346,7 @@ a:visited {
 
 	.sub-form {
 		width: 60%;
+		margin: 20px auto;
 	}
 	.email-form {
 		font-size: 15px;
@@ -328,16 +363,17 @@ a:visited {
 		float: right;
 	}
 	.info-text, .contact-text {
-		font-size: 20px;
+		font-size: 15px;
 	}
 	.contact-text {
+		font-size: 15px;
 		padding: 8px 0px;
 	}
 	.icon {
 		float: none;
-		font-size: 20px;
+		font-size: 15px;
 		text-align: left;
-		padding: 5px 15px;	
+		padding: 3px 9px;	
 	}
 	.hidden {
 		display: inline;
@@ -345,8 +381,9 @@ a:visited {
 	p.center {
 		text-align: left;
 	}
+	
 	.footer {
-		padding:;
+		height: 20vh;
 	}
 }
 
