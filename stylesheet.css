@@ -175,6 +175,10 @@ h3 {
 	font-size: 2rem;
 }
 
+.email-form:active {
+	border: none;
+}
+
 .subscribe {
 	color: white;
 	background: red;
@@ -230,11 +234,11 @@ a:visited {
 	.product-roll {
 		display: block;
 	}
-	.top {
+	.above {
 		float: left;
 		padding: 10px;
 	}
-	.bottom {
+	.below {
 		padding: 10px;
 	}
 	.product-width {
@@ -306,35 +310,39 @@ a:visited {
 
 	}
 
+	/*
+	.above {
+		float: none;
+		padding: 10px;
+	} 
+	.below{
+		float: none;
+		padding: 10px;
+	}
+*/	.products {
+	padding: 50px 0px;
+	}
 	.product-roll {
 		width: 100%;
 	}
-/*	.top {
-		float: left;
-		padding: 10px;
-	}*/
-	.bottom {
-		padding: 10px;
-	}
-	.product-wdth {
-	width: 25%;
-	/*float: left;*/
+
+
+	.product-width {
+	float: left;
 	text-align: center;
+	width: 25%
 }
 
-.item-pic {
+	.item-pic {
 	height: 200px;
 	text-align: center;
-	/*float: left;*/
+
 }
-	/*.product-width {
+	.product-width {
 		width: 25%;
-		float: left;
 		text-align: center;
-	}
-	.item-pic {
-		height: inherit;*/
-	}
+	} 
+	
 	.red-text {
 		font-size: 25px;
 	}
